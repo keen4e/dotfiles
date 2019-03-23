@@ -1,0 +1,5 @@
+Host github.com
+  User Bugra Albayrak
+  HostName github.com
+  IdentityFile ~/.ssh/keen4e/keen4e_rsa
+  IdentitiesOnly yes

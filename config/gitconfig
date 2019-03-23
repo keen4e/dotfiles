@@ -1,0 +1,5 @@
+[user]
+	name = Bugra Albayrak
+	email = bugraalbayrak@gmail.com
+[core]
+	excludesfile = /Users/balbayrak/.gitignore_global
