@@ -117,4 +117,4 @@ POWERLEVEL9K_VI_MODE_NORMAL_FOREGROUND='236'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias gitsubz="ls | xargs -I{} git -C {} pull --all"
+alias gitsubz="ls | xargs -P10 -I{} git -C {} pull"
