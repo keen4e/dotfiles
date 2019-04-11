@@ -118,3 +118,8 @@ POWERLEVEL9K_VI_MODE_NORMAL_FOREGROUND='236'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias gsubz="ls | xargs -P10 -I{} git -C {} $@"
+
+bindkey "\e\eOD" backward-word # Intellij
+bindkey "\e\eOC" forward-word # Intellij
+bindkey "^A" beginning-of-line
+bindkey "^E" end-of-line
