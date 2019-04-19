@@ -28,8 +28,8 @@ git clone https://github.com/keen4e/dd.git $ZSH_CUSTOM/plugins/dd
 
 # Config Symlinks
 cd ~
+cp dotfiles/config/ssh_config .ssh/config
 ln -sf dotfiles/config/gitconfig .gitconfig
 ln -sf dotfiles/config/gitignore_global .gitignore_global
-ln -sf dotfiles/config/ssh_config .ssh/config
 ln -sf dotfiles/config/tmux.conf .tmux.conf
 ln -sf dotfiles/config/zshrc .zshrc

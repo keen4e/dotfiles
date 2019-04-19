@@ -1,5 +1,11 @@
 Host github.com
-  User Bugra Albayrak
+  User keen4e
   HostName github.com
   IdentityFile ~/.ssh/keen4e/keen4e_rsa
+  IdentitiesOnly yes
+
+Host bitbucket.org
+  User balbayrak555
+  HostName bitbucket.org
+  IdentityFile ~/.ssh/hemlak/hemlak_rsa
   IdentitiesOnly yes
