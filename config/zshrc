@@ -122,6 +122,7 @@ POWERLEVEL9K_VI_MODE_NORMAL_FOREGROUND='236'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias gsubz="ls | xargs -P10 -I{} git -C {} $@"
+alias myjson="curl -X POST https://api.myjson.com/bins -d @-  -H 'Accept: application/json' -H 'Content-type: application/json; charset=utf-8' | grep -o 'https://api.myjson.com/bins/[0-9A-z]*' | xargs open"
 
 bindkey "\e\eOD" backward-word # Intellij
 bindkey "\e\eOC" forward-word # Intellij
