@@ -5,6 +5,12 @@
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
+# Flutter configuration
+export FLUTTER_BIN=~/flutter/bin
+export ANDROID_HOME=~/Library/Android/sdk
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home
+export PATH=$PATH:$ANDROID_HOME/platform-tools/:$ANDROID_HOME/tools/:$ANDROID_HOME/tools/bin:$FLUTTER_BIN:$JAVA_HOME
+
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
 
@@ -128,3 +134,7 @@ bindkey "\e\eOD" backward-word # Intellij
 bindkey "\e\eOC" forward-word # Intellij
 bindkey "^A" beginning-of-line
 bindkey "^E" end-of-line
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+alias swagger="docker run --rm -it -e GOPATH=$HOME/go:/go -v $HOME:$HOME -w $(pwd) quay.io/goswagger/swagger"
