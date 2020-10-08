@@ -9,3 +9,9 @@ Host bitbucket.org
   HostName bitbucket.org
   IdentityFile ~/.ssh/hemlak/hemlak_rsa
   IdentitiesOnly yes
+
+Host gitlab.com
+  User keen4e
+  HostName gitlab.com
+  IdentityFile ~/.ssh/hemlak/hemlak_rsa
+  IdentitiesOnly yes
