@@ -6,7 +6,7 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # k4-commit
-export PATH=$PATH:/Users/balbayrak/Projects/k4-commit
+export PATH=$PATH:~/k4-commit
 
 # Flutter configuration
 export FLUTTER_BIN=~/flutter/bin
